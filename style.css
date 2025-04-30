@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#b7d8aa;
+    width: 390px;
+    height: 844px;
+}
+
+header{
+    width: 390px;
+    height: 80px;
+    background-color: #ffffe3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+header nav a{
+    text-align: center;
+    color: #000000;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+main{
+    width: 390px;
+    height: 684px;
+    background-color:#b7d8aa;
+}
+
+main p{
+    margin-top: 96px;
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align: justify;
+    background-color:#b7d8aa;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main .wire{
+    margin-top: 32px;
+    height: 453px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .notebook{
+    margin-top: 32px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .wire img{
+    width: 180px;
+    height: 393px;
+}
+
+main .notebook img{
+    width: 180px;
+    height: 180px;
+}
+
+
+footer{
+    width: 390px;
+    height: 80px;
+    background-color:  #ffffe3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+footer p{
+    text-align: center;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+footer div img{
+    width: 36px;
+    height: 36px;
+    margin-left: 16px;
+    
+}
